@@ -4,7 +4,8 @@
   "description": "Blog management system with MEAN Stack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/laxmikanta415/BlogManagementNodeJs/issues"
   },
-  "homepage": "https://github.com/laxmikanta415/BlogManagementNodeJs#readme"
+  "homepage": "https://github.com/laxmikanta415/BlogManagementNodeJs#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "colors": "^1.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.13.3",
+    "supertest": "^3.0.0"
+  }
 }
